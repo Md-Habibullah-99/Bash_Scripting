@@ -35,3 +35,16 @@ elif [ ${NAME,,} = "def" ]; then
 else
   echo "I don't know who you are"
 fi
+
+echo "----------------------------------------------------------------"
+echo "----------------------------------------------------------------"
+echo "----------------------------------------------------------------"
+
+echo "another way"
+if [[ $NAME == "abc" ]]; then
+  echo "you are the boss here"
+elif [[ $NAME == "def" ]]; then
+  echo "The CEO"
+else
+  echo "Who are you?"
+fi
